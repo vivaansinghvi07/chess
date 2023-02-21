@@ -6,11 +6,17 @@ Supports two-player chess. The objective of the game is to capture the opponent'
 
 To view the game, have the "newBoard.png" image open in another tab in your IDE. It should update as pieces are moved.
 
+Enjoy!
+
+## Credits
+
 [Pieces img source](https://commons.wikimedia.org/wiki/Category:PNG_chess_pieces/Standard_transparent)
 
 [Board img source](https://stackoverflow.com/questions/61851521/how-to-detect-a-simple-2d-chessboard-with-pieces-on-it)
 
 [Colors file source](https://www.w3schools.blog/ansi-colors-java)
+
+## Code Information
 
 ```
 Type IDs:
