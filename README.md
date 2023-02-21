@@ -10,6 +10,8 @@ To view the game, have the "newBoard.png" image open in another tab in your IDE.
 
 [Board img source](https://stackoverflow.com/questions/61851521/how-to-detect-a-simple-2d-chessboard-with-pieces-on-it)
 
+[Colors file source](https://www.w3schools.blog/ansi-colors-java)
+
 ```
 Type IDs:
   WHITE:

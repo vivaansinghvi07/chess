@@ -27,16 +27,22 @@ class Main {
       Text.clear();
       if (turn) {
         System.out.print(Colors.CYAN_BOLD_BRIGHT);
-        System.out.println(user1 + "'s turn.");
+        Text.smoothPrint(user1 + "'s turn.\n");
       } else {
         System.out.print(Colors.PURPLE_BOLD_BRIGHT);
-        System.out.println(user2 + "'s turn.");
+        Text.smoothPrint(user2 + "'s turn.\n");
       }
       if (board.move(scanner.nextLine())) {
         turn = !turn;
       }
       board.display();
+      if (board.checkMate()) {
+        break;
+      }
     }
+
+    System.out.print(Colors.WHITE_BOLD_BRIGHT);
+    Text.smoothPrint("The game is over!\n");
 
   }
 }

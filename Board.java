@@ -315,9 +315,27 @@ class Board {
     }
 
     whiteTurn = !whiteTurn;
+
+    
     
     return true;
   }
+
+  public boolean checkMate() {
+    boolean blackFound = false;
+    boolean whiteFound = false;
+    for (int i = 0; i < 8; i++) {
+      for (int j = 0; j < 8; j++) {
+        if (board[i][j] == 13) {
+          whiteFound = true;
+        }
+        else if (board[i][j] == -13) {
+          blackFound = true;
+        }
+      }
+    }
+    return !(whiteFound && blackFound);
+  };
 
 
   // xy coordinates to piece
