@@ -1,3 +1,4 @@
+# 2-Player Chess
 Made in collaboration with [Caleb Han](https://github.com/calebyhan).
 
 To move a piece, simply enter its origin coordinate followed by its destination coordinate. For example, to move your d pawn, you could enter "d2d4".
